@@ -25,6 +25,7 @@ jobs:
         id: fa
         with:
           app-name: 'humipp'
+          sku: 'flexconsumption'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           publish-profile: ${{ secrets.humipp_publish_profile }}
